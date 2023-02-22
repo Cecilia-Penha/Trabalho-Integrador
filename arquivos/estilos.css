@@ -1,0 +1,97 @@
+/* Navigation Bar */
+.navbar{
+  padding: 15px 0px;
+  background: rgba(231, 141, 6, 0.95);
+  border: none;
+  }
+.navbar-brand{
+    font-size: 18px;
+    color: white !important;
+    padding: 15px 15px;
+  }
+.navbar .navbar-nav li a{
+    font-size: 16px;
+    color: white;
+  }
+.navbar .navbar-nav li a:hover { 
+  color: white;
+  background: none;
+} 
+.navbar .navbar-nav li a:visited { 
+  color: white;
+  background: none;
+} 
+
+.divisor{
+  width: 1px;
+  height: 16px;
+  background: white;
+  margin: 15px 10px;
+}
+
+/*capa*/
+/*html,body{
+  height: 100%;
+}*/
+#entrada{
+  background: url('images/imagem_fundo.png');
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/*Conteúdo*/
+#conteudo{
+  padding-top: 90px;
+  padding-bottom: 50px;
+  background: rgba(255, 255, 255,0.9);
+  
+}
+#conteudo2{
+  padding-top: 50px;
+  padding-bottom: 170px;
+  background: rgba(255, 255, 255,0.9);
+}
+
+/*Rodapé*/
+footer{
+  background: rgba(231, 141, 6,0.9);
+  padding:50px 0px 20px 0px;
+  position: relative;
+}
+.item-rede-social{
+  float: right;
+}
+
+h3{
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  padding-bottom: 3px;
+  color: rgba(231, 141, 6);
+}
+p{
+  font-size:15px;
+}
+#conteudo h2{
+  font-weight: bold;
+  color: rgba(231, 141, 6);
+}
+
+#rodape h4{
+  color:white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+#rodape li a{
+  color: white;
+}
+#rodape li a:hover{
+  color: white;
+  background:none;
+}
+
+
